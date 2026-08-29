@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+backend/venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python test/cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated model/training files
+training/models/*.joblib
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large/local datasets
+training/dataset/
+
+# Generated media/output files
+outputs/

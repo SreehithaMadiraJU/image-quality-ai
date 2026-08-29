@@ -1,0 +1,30 @@
+AI IMAGE QUALITY MODEL EVALUATION
+==================================================
+
+Training source images: 128
+Testing source images: 32
+
+Accuracy:  0.9750
+Precision: 0.9765
+Recall:    0.9750
+F1 Score:  0.9745
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  ACCEPTABLE       0.94      1.00      0.97        32
+        BLUR       1.00      1.00      1.00        32
+       NOISY       0.94      1.00      0.97        32
+ OVEREXPOSED       1.00      0.88      0.93        32
+UNDEREXPOSED       1.00      1.00      1.00        32
+
+    accuracy                           0.97       160
+   macro avg       0.98      0.97      0.97       160
+weighted avg       0.98      0.97      0.97       160
+
+Confusion Matrix:
+[[32  0  0  0  0]
+ [ 0 32  0  0  0]
+ [ 0  0 32  0  0]
+ [ 2  0  2 28  0]
+ [ 0  0  0  0 32]]
