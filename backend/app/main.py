@@ -4,8 +4,7 @@ import sqlite3
 import joblib
 from fastapi import FastAPI, File, UploadFile
 
-from feature_extractor import extract_features
-
+from backend.app.feature_extractor import extract_features
 
 # ---------------------------------------------------------
 # Project paths
